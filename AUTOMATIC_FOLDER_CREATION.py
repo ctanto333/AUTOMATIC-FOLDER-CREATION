@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import shutil
 
 
-a = datetime.today()
+a = datetime.today() #declaring todays date in a variable 'a';
 b = a.strftime('%m.%B')
 c = a.strftime('%d.%m.%y')
 e = a.strftime('%Y')
