@@ -4,7 +4,7 @@ import shutil
 
 
 a = datetime.today() #declaring todays date in a variable 'a';
-b = a.strftime('%m.%B')
+b = a.strftime('%m.%B') #declaring month in number and in text in a variable 'b'
 c = a.strftime('%d.%m.%y')
 e = a.strftime('%Y')
 yesterday = a - timedelta(days=1)
