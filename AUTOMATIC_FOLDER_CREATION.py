@@ -8,7 +8,7 @@ b = a.strftime('%m.%B') #declaring month in number and in text in a variable 'b'
 c = a.strftime('%d.%m.%y')
 e = a.strftime('%Y')
 yesterday = a - timedelta(days=1)
-d = yesterday.strftime('%d.%m.%y')
+d = yesterday.strftime('%d.%m.%y') #declaring yesterdays date month and time and stroing it in variable 'd'
 empty_folder = (os.path.join(r'Z:\To Anto\\', d))
 
 if not os.path.isdir(os.path.join(r'Z:\DESIGN\Drawings\\', e)):
